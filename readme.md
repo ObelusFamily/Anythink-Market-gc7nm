@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Installation:
+
+- First clone the repository onto youur local system.
+- Ensure [Docker](https://docs.docker.com/get-docker/) is installed and run the intitial setup.
+- Afterwards, go to the root directory of the cloned repository on your system and type `docker-compose up`.
+- When Docker is finished, you should be able to go to the localhost:3000 to see the backend and localhost:3001 gives you the frontend/ user experence.
+
